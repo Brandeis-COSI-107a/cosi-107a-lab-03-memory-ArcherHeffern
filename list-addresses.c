@@ -12,6 +12,6 @@ int main() {
     printf("Stack Variable Address:         0x%.12X\n", &stack_variable);
     printf("String Constant Address:        0x%.12X\n", string_constant);
     printf("Uninitialized Variable Address: 0x%.12X\n", &uninitialized_variable);
-    printf("Main Function Address:          0x%.12X\n", main);
-    printf("Random Function Address:        0x%.12X\n", function);
+    printf("Main function Address:          0x%.12X\n", main);
+    printf("Random function Address:        0x%.12X\n", function);
 }
